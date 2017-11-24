@@ -1,0 +1,43 @@
+*
+{
+    font-family: Century Gothic;
+    font-size: 100%;
+}
+#branding
+{
+    font-weight: bold;
+}
+#intro
+{
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+#searchLang
+{
+    width:20%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+#loader
+{
+    border: 6px solid #f3f3f3;
+    border-top:6px solid #da86cf;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.titles
+{
+    color: #9c27b0!important;
+    font-weight: bold;
+}

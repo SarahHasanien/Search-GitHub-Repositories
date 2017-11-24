@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title> MyGitHub Search Engine </title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="javascript/file.js"></script>
+        <script src="javascript/jquery-1.11.3.min.js"></script>
+        <script src="javascript/plugins.js"></script>
+        <script src="javascript/file.js"></script>
+        <script type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    
+    
+    <body>
+        <!--Navigation starts here-->
+        <div class="w3-bar w3-gray w3-large">
+          <img src="images/logo.png" alt="Lights" class="w3-image w3-bar-item w3-mobile w3-card-4 animated fadeIn" style="width:100%;max-width:60px;">
+          <span class="w3-bar-item w3-mobile animated fadeIn" id="branding">MyGitHub Search Engine </span>
+          <div class="w3-right w3-mobile">
+              <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-purple">Home</a>
+              <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-purple"> About us</a>
+              <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-purple">Contact</a>
+          </div>
+        </div>
+         <!--Navigation ends here-->
+        
+         <!--Form starts here-->
+        <div class="w3-container w3-center">
+            <h1 class="w3-wide w3-mobile animated bounceIn" id="intro"> Search GitHub repositories by language!</h1>
+            <input class="w3-input w3-border w3-round-large w3-mobile animated bounceInRight" id="searchLang" type="text" placeholder="Search...">
+            <button type="button" class="w3-button w3-purple w3-large w3-mobile animated bounceInLeft " id="submit"> Submit
+            </button>
+            <br>
+            <br>
+        </div>
+         <!--Form starts here-->
+
+         <!--loader and repositories area-->
+        <div id="loader"></div>
+        <div id="repoInfo"></div>
+    </body>
+</html>
